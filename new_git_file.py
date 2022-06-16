@@ -9,4 +9,11 @@ class GitFile:
     def owner(self):
         return f'{self.height}, {self.age}'
 
+class Test:
+    def __init__(self, street):
+        self.street = street
+
+    def check(self):
+        return f'{self.street}'
+
 
