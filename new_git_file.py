@@ -6,3 +6,7 @@ class GitFile:
     def animal(self):
         return f'{self.height}, {self.age}'
 
+    def owner(self):
+        return f'{self.height}, {self.age}'
+
+
